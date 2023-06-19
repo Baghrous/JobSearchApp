@@ -1,0 +1,50 @@
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+}
+
+.toolbar .ant-input-search {
+  display: flex;
+  align-items: center;
+}
+
+.toolbar .ant-input-search-input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.toolbar .ant-select {
+  width: 300px;
+  max-width: 100%;
+}
+
+.toolbar .ant-select-selector {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.toolbar .ant-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #001628;
+  color: #fff;
+  cursor: pointer;
+}
+
+.toolbar .ant-btn:hover {
+  background-color: #001628;
+}
